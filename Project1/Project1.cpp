@@ -7,9 +7,12 @@ int main()
     double x, y;
     bool res;
     SetConsoleOutputCP(1251);
-    cout << "¬вед≥ть x-->";
-    cin >> x;
-    cout << "x=" << x << endl;
+    do
+    {
+        cout << "¬вед≥ть x-->";
+        cin >> x;
+        cout << "x=" << x << endl;
+    } while (x < SHRT_MIN || x > SHRT_MAX);
     cout << "¬вед≥ть y-->";
     cin >> y;
     cout << "y=" << y << endl;
