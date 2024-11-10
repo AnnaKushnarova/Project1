@@ -2,6 +2,7 @@
 #include <math.h>
 #include <windows.h>
 using namespace std;
+//програму обчислення логічного виразу належності точки з заданими координатами (x, y) до заштрихованої області.
 int main()
 {
     double x, y;
